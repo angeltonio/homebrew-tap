@@ -1,18 +1,18 @@
 # homebrew-tap
 
-Homebrew formulae for tools I maintain.
+Homebrew casks for tools I maintain.
 
 ## Usage
 
 ```bash
 brew tap angeltonio/tap
-brew install <formula>
+brew install <cask>
 ```
 
 Or in one step, without tapping first:
 
 ```bash
-brew install angeltonio/tap/<formula>
+brew install angeltonio/tap/<cask>
 ```
 
 Note the missing `homebrew-` prefix in the tap name. Homebrew requires the
