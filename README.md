@@ -19,17 +19,17 @@ Note the missing `homebrew-` prefix in the tap name. Homebrew requires the
 repository to be called `homebrew-tap` and then strips the prefix everywhere
 you type it.
 
-## Formulae
+## Casks
 
-| Formula | Description |
+| Cask | Description |
 | --- | --- |
 | _(none published yet)_ | |
 
 ## About the contents of this repository
 
-Everything under `Formula/` is generated. [GoReleaser](https://goreleaser.com)
-writes each formula during a release, with the download URLs and checksums for
+Everything under `Casks/` is generated. [GoReleaser](https://goreleaser.com)
+writes each cask during a release, with the download URLs and checksums for
 that exact version, and commits it here.
 
-Editing a formula by hand will work until the next release overwrites it. Fix
+Editing a cask by hand will work until the next release overwrites it. Fix
 the source project's release configuration instead.
