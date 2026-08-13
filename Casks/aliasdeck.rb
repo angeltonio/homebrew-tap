@@ -4,12 +4,12 @@ cask "aliasdeck" do
 
   on_macos do
     on_intel do
-      sha256 "094d056e872330420bdce83b0282b5cfd59d44ff941dc24400e552dac5b9184c"
+      sha256 "3be83917c255661cdb377179ed417255162f9c336634f38af4d076e4132d943e"
       url "https://github.com/angeltonio/aliasdeck/releases/download/v#{version}/aliasdeck_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/angeltonio/aliasdeck"
     end
     on_arm do
-      sha256 "14685ab4037701a3e1fc53007e89eed08a81f3b9e01fc3f1e5c0bd62d6cdfd13"
+      sha256 "915345004a480e57af46641627971e7cee8706b49b1892b323b1b2e326ca33c9"
       url "https://github.com/angeltonio/aliasdeck/releases/download/v#{version}/aliasdeck_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/angeltonio/aliasdeck"
     end
@@ -17,12 +17,12 @@ cask "aliasdeck" do
 
   on_linux do
     on_intel do
-      sha256 "eb5f1c89396169745ddefaba2929ca787fd157db69d0d39ec551d8e5f33aa0c1"
+      sha256 "54f871224dcceed5199fb50208d8f372a20f9dc7fbe8e63f67305ab5e364332b"
       url "https://github.com/angeltonio/aliasdeck/releases/download/v#{version}/aliasdeck_#{version}_linux_amd64.tar.gz",
         verified: "github.com/angeltonio/aliasdeck"
     end
     on_arm do
-      sha256 "dc1223e1f1b504246d8a3eaf6df0fe6c8e3927623c86ffa868a4429d3b8b754d"
+      sha256 "a95176d21e803bce2c2876fcfbaf05c226c83f6f7a4d212aed9634bffdec74ff"
       url "https://github.com/angeltonio/aliasdeck/releases/download/v#{version}/aliasdeck_#{version}_linux_arm64.tar.gz",
         verified: "github.com/angeltonio/aliasdeck"
     end
